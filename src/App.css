@@ -12,6 +12,12 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.container{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+}
 
 /*Navbar section */
 
@@ -21,47 +27,51 @@ body{
     min-height: 8vh;
     align-items: center;
     padding: 1.5rem 0;
-    margin-bottom: 3rem;
 }
 
-.logo{
-    text-transform: uppercase;
-    color: red;
-    letter-spacing: 5px;
-}
-
-input[type=text]{
-    /* min-width: 30%; */
-    padding: 10px 10px 10px 20px;
-    outline: none;
-    border-radius: 12px;
-}
-
-
-/*Movies Section */
-
-.container {
+.nav-right{
     display: flex;
-    max-width: 1200px;
-    width: 90%;
-    flex-wrap: wrap;
+}
+.nav-links {
+    list-style: none;
+    justify-content: space-between;
+    display:flex;
+    width: 200px;
 }
 
-.movie-card{
-    width: 220px;
-    height: 300px;
-    margin: 15px;
-    position: relative;
-	transition: transform 0.2s;
+.nav-link{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: 0.2s ease-in;
 }
 
-.movie-card:hover{
-    cursor: pointer;
-	transform: scale(1.1);
+.nav-link:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+.logo {
+    text-decoration: none;
+    color: #eb2b34;
+    font-size: 1.5rem;
 }
 
-.movie-card img {
-    height: 100%;
-    width: 100%;
+.search-box{
+    padding: .4rem 1rem;
+    background-color:transparent;
+    color: white;
+    outline-style: none;
+    border-radius: 50px;
+    width: 25%;
+    min-width: 240px;
+    max-width: 240px;
+    border: 1px solid gray;
+    transition: 0.2s ease-in-out;
 }
+
+.search-box:focus{
+    background-color:  rgba(255, 255, 255, 0.2);
+    border: 1px solid white;
+}
+
 

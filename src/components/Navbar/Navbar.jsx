@@ -7,12 +7,13 @@ const Navbar = () => {
 
     return (
         <>   
-            <nav> 
-                <Link to='/'><h1>Fakeflix</h1></Link> 
-                <ul>
-                    <li><Link to='/movies'></Link></li>
-                    <li><Link to='/tvshows'></Link></li>
-                </ul>
+            <nav className='container navbar'>
+                <Link to='/' className='logo'><h1>Fakeflix</h1></Link> 
+                <ul className='nav-links'>
+                    <li ><Link to='/movies' className='nav-link'>Movies</Link></li>
+                    <li ><Link to='/tvshows'className='nav-link'>Tv Shows</Link></li>
+                </ul>  
+                <input type="search" placeholder='Search...' className='search-box'/>
             </nav>
 
         </>

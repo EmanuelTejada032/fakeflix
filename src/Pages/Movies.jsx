@@ -5,7 +5,7 @@ const MovieList = () => {
         
         return (
         <>
-          <div>
+          <div className='container'>
             Movies section
           </div>      
         </>

@@ -12,14 +12,13 @@ const Movies = () => {
           .then(data => {
             setMovies(data.results)
           })
-
-          console.log(movies)
+        
           // eslint-disable-next-line
         }, [])
 
         return (
         <>
-          <div className='container movie-container'>
+          <div className='container resource-container'>
              {movies.length > 0? movies.map((resource) => (
                 <Resource {...resource} key={resource.id} />
              )): 'No movies found'}

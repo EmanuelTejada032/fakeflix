@@ -1,10 +1,16 @@
 import React from 'react'
+import Resource from '../components/Resource/Resource'
 
-const Home = () => {
+const Home = ({homeData}) => {
     return (
-        <div className='container'>
-            Home Page
-        </div>
+        <>
+          <h2 style={{textAlign: 'center'}}>Look at today's trending</h2>
+          <div className='container resource-container'>
+             {homeData.length > 0 && homeData.map((resource) => (
+                <Resource {...resource} key={resource.id} />
+             ))}
+          </div>      
+        </>
     )
 }
 

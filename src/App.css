@@ -66,10 +66,10 @@ body{
     color: white;
     outline-style: none;
     border-radius: 50px;
-    max-width: 250px;
+    width: 250px;
     border: 1px solid gray;
     transition: 0.2s ease-in-out;
-    flex-basis: 30%;
+    
 }
 
 .search-box:focus{
@@ -146,9 +146,7 @@ body{
         font-size: 1.2rem;
         flex-basis: 60%;
     }
-    .search-box{
-        max-width: 400px;
-    }
+    
     .nav-links{
         justify-content: space-around;
     }

@@ -18,7 +18,7 @@ This application made using the movie db API to retrieve different resource data
 
 ## Install guide
   
-  You can see the app live project here [Fakeflix](https://fake-flix.netlify.app/) or folow the steps below to install locally and deploy 
+  You can see the app live project here [Fakeflix](https://fakeflix.emanueltejada.site/) or folow the steps below to install locally and deploy 
   with your own API credentials.
   
   

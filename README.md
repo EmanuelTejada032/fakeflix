@@ -1,6 +1,8 @@
 # Fakeflix
 This application made using the movie db API to retrieve different resource data like Movies and TV shows and its details data like ratings and much more.
 
+![fakeflix index](https://res.cloudinary.com/emanueltejada/image/upload/v1620008691/Test/WhatsApp_Image_2021-05-02_at_10.21.40_PM_bo0srd.jpg)
+
 ## Technology used
   
   * React
